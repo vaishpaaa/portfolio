@@ -7,15 +7,14 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
         body { font-family: 'Orbitron', sans-serif; margin: 0; padding: 0; background: #0a0a0a; color: #fff; }
-        header { background: linear-gradient(90deg, #111, #222); color: cyan; padding: 20px; text-align: center; font-size: 2em; box-shadow: 0 0 15px cyan; }
+        header { background: linear-gradient(90deg, #111, #222); color: white; padding: 20px; text-align: center; font-size: 2em; box-shadow: 0 0 15px white; }
         section { padding: 20px; }
         .container { max-width: 1000px; margin: auto; }
-        .project, .certification { background: rgba(0, 255, 255, 0.2); padding: 20px; margin: 20px 0; border-radius: 15px; box-shadow: 0 0 15px cyan; }
-        footer { background: #111; color: cyan; text-align: center; padding: 15px; margin-top: 20px; box-shadow: 0 0 10px cyan; }
-        a { color: cyan; text-decoration: none; font-weight: bold; }
-        a:hover { text-shadow: 0 0 10px cyan; }
-        .futuristic-bg { background: url('https://source.unsplash.com/1600x900/?technology,futuristic,neon') no-repeat center center/cover; padding: 80px; text-align: center; font-size: 1.8em; font-weight: bold; text-shadow: 0 0 15px cyan; }
-        img { max-width: 100%; height: auto; border-radius: 15px; display: block; margin: 15px auto; box-shadow: 0 0 10px cyan; }
+        .project, .certification { background: rgba(255, 255, 255, 0.2); padding: 20px; margin: 20px 0; border-radius: 15px; box-shadow: 0 0 15px white; }
+        footer { background: #111; color: white; text-align: center; padding: 15px; margin-top: 20px; box-shadow: 0 0 10px white; }
+        a { color: white; text-decoration: none; font-weight: bold; }
+        a:hover { text-shadow: 0 0 10px white; }
+        .futuristic-bg { background: radial-gradient(circle, rgba(0, 153, 255, 0.3), rgba(0, 0, 0, 0.9)), url('https://source.unsplash.com/1600x900/?technology,futuristic,neon') no-repeat center center/cover; padding: 80px; text-align: center; font-size: 1.8em; font-weight: bold; text-shadow: 0 0 15px white; }
         @media (max-width: 768px) { .container { width: 95%; } }
     </style>
 </head>
@@ -25,11 +24,10 @@
         <p>AI & Machine Learning Enthusiast | Python Developer</p>
     </header>
     <div class="futuristic-bg">
-        <h2>Welcome to My Futuristic Portfolio</h2>
+        <h2>Welcome to My Portfolio</h2>
     </div>
     <section class="container">
         <h2>About Me</h2>
-        <img src="https://source.unsplash.com/600x400/?artificial-intelligence,cyberpunk" alt="AI Representation">
         <p>Introducing Vaishnav Muriki, a passionate Python developer specializing in AI and ML. Currently pursuing a degree at Malla Reddy University, Vaishnav is building innovative AI-driven solutions.</p>
         <h2>Skills</h2>
         <ul>
@@ -44,28 +42,24 @@
         <h2>Projects</h2>
         <div class="project">
             <h3>Movie Recommendation System</h3>
-            <img src="https://source.unsplash.com/600x400/?data,ai,algorithm" alt="Recommendation System">
             <p>Designed a collaborative filtering model, increasing user engagement by 30%.</p>
             <p><strong>Tools:</strong> Python, SQL, Scikit-Learn, Flask</p>
             <p><a href="https://github.com/vaishpaaa" target="_blank">View on GitHub</a></p>
         </div>
         <div class="project">
             <h3>Face Emotion Recognition</h3>
-            <img src="https://source.unsplash.com/600x400/?face,emotion,deep-learning" alt="Emotion Recognition">
             <p>Developed a CNN-based emotion recognition system, achieving 85% accuracy.</p>
             <p><strong>Tools:</strong> Python, TensorFlow, OpenCV</p>
             <p><a href="https://github.com/vaishpaaa" target="_blank">View on GitHub</a></p>
         </div>
         <div class="project">
             <h3>Dental X-Rays Classification</h3>
-            <img src="https://source.unsplash.com/600x400/?x-ray,medical-ai" alt="X-Ray Classification">
             <p>Built and optimized a CNN model for automated diagnosis, improving accuracy by 25%.</p>
             <p><strong>Tools:</strong> Python, TensorFlow, Keras, OpenCV</p>
             <p><a href="https://github.com/vaishpaaa" target="_blank">View on GitHub</a></p>
         </div>
         <div class="project">
             <h3>News Articles Classification using NLP</h3>
-            <img src="https://source.unsplash.com/600x400/?news,nlp,artificial-intelligence" alt="NLP News Classification">
             <p>Implemented a BERT-based text classifier, reducing manual categorization time by 40%.</p>
             <p><strong>Tools:</strong> Python, Transformers, NLTK, TextBlob</p>
             <p><a href="https://github.com/vaishpaaa" target="_blank">View on GitHub</a></p>
